@@ -1,0 +1,18 @@
+{
+  "name": "magellan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wiki:remote": "git remote add wiki https://github.com/Caracal-IT/magellan.wiki.git",
+    "wiki:pull": "git subtree pull --prefix docs wiki master --squash --message=\"Merge wiki updates into docs.\"",
+    "wiki:push": "git subtree push --prefix docs wiki master",
+    "elk": "docker-compose -f ./inf/dockerCompose/docker-compose.elk.yml --env-file ./inf/dockerCompose/elk.env",
+    "elk:start": "pnpm run elk up -d",
+    "elk:stop": "pnpm run elk down",
+    "certs:copy": "sudo docker cp 4547e195f741:/usr/share/kibana/config/certs ./certs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
