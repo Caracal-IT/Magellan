@@ -1,1 +1,1 @@
-Welcome to the magellan wiki!
+Welcome to the magellan wiki!!
