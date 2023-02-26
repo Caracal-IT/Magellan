@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "wiki:add": "git subtree add --prefix docs https://github.com/Caracal-IT/magellan.wiki.git main --squash",
     "wiki:remote": "git remote add wiki https://github.com/Caracal-IT/magellan.wiki.git",
     "wiki:pull": "git subtree pull --prefix docs wiki master --squash --message=\"Merge wiki updates into docs.\"",
     "wiki:push": "git subtree push --prefix docs wiki master",
