@@ -76,6 +76,12 @@ that the major features of your system are working as expected.
 Smoke tests can be useful right after a new build is made to decide whether or not you can run more expensive tests, or right after a deployment to make sure that they 
 application is running properly in the newly deployed environment.
 
+## Test Pyramid
+The "Test Pyramid" is a metaphor that tells us to group software tests into buckets of different granularity. It also gives an idea of how many tests we should have 
+in each of these groups.
+
+![Test Pyramid](TestPyramid.drawio.png)
+
 
 
 
