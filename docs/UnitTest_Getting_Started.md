@@ -15,3 +15,5 @@ In this article, the code uses C#, illustrations are in C#, but the concepts and
 | XUnit             | The testing framework.                      | https://xunit.net                  |
 | NSubstitute       | Use to fake dependencies                    | https://nsubstitute.github.io      |
 | Fluent Assertions | The library used to write the assertions.   | https://fluentassertions.com       |
+
+## Project Structure
