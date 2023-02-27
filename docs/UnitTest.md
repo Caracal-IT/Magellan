@@ -82,6 +82,17 @@ in each of these groups.
 
 ![Test Pyramid](TestPyramid.drawio.png)
 
+### Unit Tests
 
+Unit tests can only find logical errors at the most fundamental level. They are fast and require very few resources to run.
+
+### Integration Tests
+
+Integration tests verify that services and databases work well together with the code and the classes you’ve written. They can only find problems at the interfaces where 
+two or more components meet. Third party components will be faked.
+
+### E2E Tests
+E2E tests depend on the complete application being able to start. These are the most comprehensive type of tests we have and, accordingly, need the most computing
+resources and time to run. Third party components will be faked.
 
 
