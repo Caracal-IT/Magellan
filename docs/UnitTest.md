@@ -94,5 +94,3 @@ two or more components meet. Third party components will be faked.
 ### E2E Tests
 E2E tests depend on the complete application being able to start. These are the most comprehensive type of tests we have and, accordingly, need the most computing
 resources and time to run. Third party components will be faked.
-
-
